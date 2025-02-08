@@ -2,6 +2,7 @@
 #define ModbusTCPComm_h
 
 #include "Arduino.h"
+#include "Client.h"
 #include "ModbusADU.h"
 
 enum ModbusTCPCommError : uint8_t {

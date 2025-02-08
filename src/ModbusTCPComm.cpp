@@ -23,3 +23,5 @@ void ModbusTCPCommClass::writeAdu(Client& client, ModbusADU& adu) {
   client.write(adu.tcp, adu.getTcpLen());
   client.flush();
 }
+
+ModbusTCPCommClass ModbusTCPComm = ModbusTCPCommClass();
